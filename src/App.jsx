@@ -1,5 +1,13 @@
+import { GlobalStyles } from './styles/GlobalStyles';
+import PageContainer from './components/pageContainer/PageContainer';
+
 const App = () => {
-  return <h1>REACT</h1>;
+  return (
+    <>
+      <GlobalStyles />
+      <PageContainer />
+    </>
+  );
 };
 
 export default App;

@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyles = createGlobalStyle`
 *,
 *::after,
 *::before {
@@ -6,6 +9,9 @@
 
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #FAFAFA;
+  color: #4D4F62;
 }
 
 img {
@@ -24,3 +30,4 @@ a {
   text-decoration: none;
   color: inherit;
 }
+`;
